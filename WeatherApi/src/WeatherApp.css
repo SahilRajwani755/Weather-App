@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the Weather App */
+.weather-app {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+/* Input Styles */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.flex-item{
+    display: flex;  
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+}
+
+/* Button Styles */
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 10px 25px;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Loading and Error Messages */
+.loading {
+    font-size: 16px;
+    color: #007BFF; /* Blue */
+}
+
+.error {
+    font-size: 16px;
+    color: #FF0000; /* Red */
+}
+
+/* Weather Data Display */
+.weather-info {
+    margin-top: 20px;
+}
+
+.weather-info h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.weather-info p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #555;
+}
